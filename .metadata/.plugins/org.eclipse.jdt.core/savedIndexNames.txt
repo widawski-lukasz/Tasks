@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\DonUkson\Documents\exorigo\.metadata\.plugins\org.eclipse.jdt.core
+3271193799.index
+1698292572.index
+1158661596.index
+289415558.index
+609354231.index

@@ -1,0 +1,25 @@
+package pl.widawski.barcodeChecker;
+
+import java.util.regex.Pattern;
+
+public class BCAnalyzer {
+
+	public String analyze(int bcType, String barCode) {
+		
+		Pattern bcPattern = Pattern.compile("test");
+		
+		if(bcType == 1) {
+			
+		}
+		else if(bcType == 2) {
+			
+		}
+		else {
+			System.out.println("Choose 1 or 2 type of your barcode.");
+		}
+		
+		
+		return barCode;
+	}
+	
+}

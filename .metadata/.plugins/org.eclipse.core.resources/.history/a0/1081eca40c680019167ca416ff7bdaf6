@@ -1,0 +1,13 @@
+package pl.widawski.barcodeChecker;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BCInput test = new BCInput();
+		test.getBCType();
+		test.getBC();
+		System.out.println(test.bcType);
+
+	}
+
+}

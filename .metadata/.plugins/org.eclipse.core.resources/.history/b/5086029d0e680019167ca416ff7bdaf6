@@ -1,0 +1,5 @@
+package pl.widawski.barcodeChecker;
+
+public class BCAnalyzer {
+
+}

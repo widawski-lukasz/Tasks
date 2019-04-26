@@ -1,0 +1,32 @@
+package pl.widawski.barcodeChecker;
+
+import java.util.Scanner;
+
+public class BCInput implements BCInterface {
+	String barCode;
+	int bcType;
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	
+	public int getBCType() {
+		System.out.println("Choose the type of barcode. '1' for EAN-8 / '2' for EAN-13.");
+		try {
+			bcType = scanner.nextInt();
+			scanner.nextLine();
+		}catch (Exception e) {
+			System.out.println("Improper input");
+		}
+		return bcType;
+	}
+	public String getBC() {
+		System.out.println("Enter the barcode.");
+		try {
+			barCode = scanner.nextLine();
+		} catch (Exception e) {
+			System.out.println("Imporper input");
+		}
+		return barCode;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package barcodeChecker;
+
+public interface BCInterface {
+
+}
